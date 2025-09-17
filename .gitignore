@@ -1,0 +1,101 @@
+############################
+# 🚀 Projet Java - Git Ignore
+# Compatible IntelliJ IDEA et VS Code
+############################
+
+# ========================
+# ☕️ Compilation Java
+# ========================
+# Les fichiers compilés (.class)
+*.class
+
+# Les archives générées
+*.jar
+*.war
+*.ear
+
+# Les logs d’exécution
+*.log
+
+# Les fichiers temporaires
+*.ctxt
+*.tmp
+
+# ========================
+# ⚙️ Système d’exploitation
+# ========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ========================
+# 🛠️ IntelliJ IDEA
+# ========================
+# Répertoires spécifiques à IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Dossiers de build d’IntelliJ
+out/
+
+# ========================
+# 🛠️ VS Code
+# ========================
+# Configurations VS Code
+.vscode/
+
+# Dossiers de build
+bin/
+build/
+
+# ========================
+# 📦 Dépendances (Maven / Gradle)
+# ========================
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ========================
+# 🔒 Sécurité
+# ========================
+# Fichiers contenant des secrets (à gérer via .env ou un vault)
+*.env
+*.key
+*.keystore
+*.pem
+
+# ========================
+# 📂 Autres caches
+# ========================
+# Logs et caches
+*.cache
+*.diff
+*.patch
+*.class
+*.swp
+*.swo
+
+# ========================
+# 🚀 Tests
+# ========================
+# Rapports de tests
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+############################
+# Fin du .gitignore
+############################
