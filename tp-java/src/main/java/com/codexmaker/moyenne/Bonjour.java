@@ -1,4 +1,4 @@
-package main.java.com.codexmaker.moyenne;
+package com.codexmaker.moyenne;
 
 public  class Bonjour {
     public static void main(String[] args) {
